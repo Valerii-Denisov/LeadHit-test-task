@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "leadhit-test-task"
+version = "0.1.0"
+description = ""
+authors = ["Valerii-Denisov <klerk919191@gmail.com>"]
+readme = "README.md"
+packages = [{include = "leadhit_test_task"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.0.0"
+tinydb = "^4.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

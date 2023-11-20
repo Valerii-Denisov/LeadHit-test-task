@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flask POST Request</title>
+</head>
+<body>
+    <form method="POST" action="{{ url_for('get_form?f=') }}">
+        <input type="text" name="username" placeholder="Username">
+        <br><br>
+        <input type="password" name="password" placeholder="Password">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
